@@ -5,12 +5,12 @@ html {
 body {
     margin: 0px auto;
     padding-bottom: 25px;
-    
+
     font-family: sans-serif;
-    background: linear-gradient(rgb(170, 169, 169),rgb(0, 0, 0)) no-repeat fixed;
-   
-    
-    
+    background: linear-gradient(rgb(170, 169, 169), rgb(0, 0, 0)) no-repeat fixed;
+
+
+
 }
 
 .login-box {
@@ -106,6 +106,7 @@ body {
     0% {
         left: -100%;
     }
+
     50%,
     100% {
         left: 100%;
@@ -126,6 +127,7 @@ body {
     0% {
         top: -100%;
     }
+
     50%,
     100% {
         top: 100%;
@@ -146,6 +148,7 @@ body {
     0% {
         right: -100%;
     }
+
     50%,
     100% {
         right: 100%;
@@ -166,6 +169,7 @@ body {
     0% {
         bottom: -100%;
     }
+
     50%,
     100% {
         bottom: 100%;
@@ -184,7 +188,7 @@ body {
 .fixed-footer {
     width: 100%;
     position: fixed;
-    
+
     padding: 10px 0;
     color: #fff;
 }
@@ -196,7 +200,7 @@ body {
 
 .fixed-footer {
     bottom: 0;
-    background: rgba(0,0,0,0.5);
+    background: rgba(0, 0, 0, 0.5);
     opacity: 0.5;
 }
 
@@ -245,16 +249,19 @@ nav a:hover {
     color: #fff;
     text-align: center;
 }
-#stringBox{
+
+#stringBox {
     height: 150px;
     width: 20%;
     font-size: 20px;
     font-weight: 700;
     cursor: pointer;
 }
-.btn-search,.accordion{
+
+.btn-search,
+.accordion {
     color: #fff;
-    background: linear-gradient(rgb(170, 169, 169),rgb(0, 0, 0));
+    background: linear-gradient(rgb(170, 169, 169), rgb(0, 0, 0));
     text-decoration: none;
     padding: 7px 70px;
     border: 1px solid black;
@@ -264,45 +271,63 @@ nav a:hover {
     margin-left: 0%;
     margin-right: 0;
 }
-.btn-search:hover,.accordion:hover{
+
+.btn-search:hover,
+.accordion:hover {
     background: #CD0404;
-    color:#fff;
+    color: #fff;
     border-radius: 5px;
     box-shadow: 0 0 5px #FF0032, 0 0 25px #FF0032, 0 0 50px #FF0032, 0 0 100px #FF0032;
 }
-.index{
+
+.index {
     width: 3%;
 }
-table, th, td {
-    border:1px solid black;
-  }
-  .Calculator{
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+.Calculator {
     width: 5%;
     height: 60px;
     margin: 25px 60px 25px 60px;
-    background: linear-gradient(rgb(170, 169, 169),rgb(0, 0, 0));
-  }
-  .Calculator:hover{
+    background: linear-gradient(rgb(170, 169, 169), rgb(0, 0, 0));
+}
+
+.Calculator:hover {
     background: #CD0404;
-    color:#fff;
+    color: #fff;
     border-radius: 5px;
     box-shadow: 0 0 5px #FF0032, 0 0 25px #FF0032, 0 0 50px #FF0032, 0 0 100px #FF0032;
     opacity: 0.7;
     cursor: pointer;
-  }
-  ul.no-bullets {
-    list-style-type: none; /* Remove bullets */
-    padding: 0; /* Remove padding */
-    margin: 0; /* Remove margins */
-  }
-  .submit {
-    width: 120px; height: 40px;background: rgba(0,0,0,0.5); color: aqua; font-size: large;
-  }
-  /* Disable input number arrows */
-  input::-webkit-outer-spin-button,
-  input::-webkit-inner-spin-button {
+}
+
+ul.no-bullets {
+    list-style-type: none;
+    /* Remove bullets */
+    padding: 0;
+    /* Remove padding */
+    margin: 0;
+    /* Remove margins */
+}
+
+.submit {
+    width: 120px;
+    height: 40px;
+    background: rgba(0, 0, 0, 0.5);
+    color: aqua;
+    font-size: large;
+}
+
+/* Disable input number arrows */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
-  /* Accordion */
-  
+
+/* Accordion */

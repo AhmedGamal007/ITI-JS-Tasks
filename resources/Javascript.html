@@ -28,111 +28,141 @@
         <div>
 
             <article>
-                
-                  
-                    <button class="accordion" >SubString JS</button>
-                  
-                    <div class="accordion-content" style="color: black; background: rgba(0,0,0,0.1);">
-                  
-                        <div>
-                            <h3>The String to Search is: </h3>
-                            <textarea  id="stringBox" rows = "5" cols = "60" name="stringInput"></textarea><br>
-                            <p>Enter the substring to search for<br></p>
-                            <input type="text" name ="subStringInput" id="subStringInput"><br>
-                            <p>At index<br><input type="text" id="indexInput" value="0" class="index"></p><br>
-                            <input type="button" name="search" value="Search" class="btn-search" id="search" onclick="substring()"> <br>
-                            <b>First occurence located at index <input type="text" id="firstIndexOutput" class="index" readonly="true"><br></b>
-                            <b>Last occurence located at index <input type="text" id="lastIndexOutput" class="index" readonly="true"><br></b>
-                            <b>First occurence from your index located at index <input type="text" id="firstIndexInputOutput" class="index" readonly="true"><br></b>
-                            <b>Last occurence from your index located at index <input type="text" id="lastIndexInputOutput" class="index" readonly="true"><br></b>
-                            <script src="substring.js"></script>
-                            
-                        </div>
+
+
+                <button class="accordion">SubString JS</button>
+
+                <div class="accordion-content" style="color: black; background: rgba(0,0,0,0.1);">
+
+                    <div>
+                        <h3>The String to Search is: </h3>
+                        <textarea id="stringBox" rows="5" cols="60" name="stringInput"></textarea><br>
+                        <p>Enter the substring to search for<br></p>
+                        <input type="text" name="subStringInput" id="subStringInput"><br>
+                        <p>At index<br><input type="text" id="indexInput" value="0" class="index"></p><br>
+                        <input type="button" name="search" value="Search" class="btn-search" id="search"
+                            onclick="substring()"> <br>
+                        <b>First occurence located at index <input type="text" id="firstIndexOutput" class="index"
+                                readonly="true"><br></b>
+                        <b>Last occurence located at index <input type="text" id="lastIndexOutput" class="index"
+                                readonly="true"><br></b>
+                        <b>First occurence from your index located at index <input type="text"
+                                id="firstIndexInputOutput" class="index" readonly="true"><br></b>
+                        <b>Last occurence from your index located at index <input type="text" id="lastIndexInputOutput"
+                                class="index" readonly="true"><br></b>
+                       
+
                     </div>
-                    <button class="accordion" >StringSplit JS</button>
-                  
-                    <div class="accordion-content" style="color: black; background: rgba(0,0,0,0.1);">
-                  
+                </div>
+                <button class="accordion">StringSplit JS</button>
+
+                <div class="accordion-content" style="color: black; background: rgba(0,0,0,0.1);">
+
+                    <div>
+                        <div>
+                            <h3>Enter A Sentence To Split Into Words </h3>
+                            <input type="text" id="stringSentence" name="" style="width: 20%;"><br>
+                            <p>Split By<br><input type="text" id="splitInput" class="index"></p><br>
+                            <input type="button" name="search" value="Split" class="btn-search" id="split"
+                                onclick="stringSplit()"> <br><br>
+                            <b>The Sentence Split Into Words Is</b><br><textarea id="stringBox"
+                                readonly="true"></textarea><br>
+                            <b>The First 10 Characters Of The Input String are<br><input type="text" id="firstOutput"
+                                    readonly="true">
+                                
+
+                        </div>
+
+                    </div>
+                </div>
+                <button class="accordion">Factorial JS</button>
+
+                <div class="accordion-content" style="color: black; background: rgba(0,0,0,0.1);">
+
+                    <div>
                         <div>
                             <div>
-                                <h3>Enter A Sentence To Split Into Words </h3>
-                                <input type="text"  id="stringSentence" name="" style="width: 20%;"><br>
-                                <p>Split By<br><input type="text" id="splitInput" class="index"></p><br>
-                                <input type="button" name="search" value="Split" class="btn-search" id="split" onclick="stringSplit()"> <br><br>
-                                <b>The Sentence Split Into Words Is</b><br><textarea id="stringBox" readonly="true"></textarea><br>
-                                <b>The First 10 Characters Of The Input String are<br><input type="text" id="firstOutput" readonly="true">
-                                <script src="StringSplit.js"></script>
-                                
+                                <input type="button" value="Find Factorial For..." class="btn-search" id="factorial"
+                                    onclick="test()"> <br><br>
+                                <table style="width:100%">
+                                    <tr>
+                                        <th>Number</th>
+                                        <th>Factorial</th>
+                                    </tr>
+                                    <script src="Factorial.js"></script>
+
+                                </table>
+
+
                             </div>
-                            
+
                         </div>
+
                     </div>
-                    <button class="accordion" >Factorial JS</button>
-                  
-                    <div class="accordion-content" style="color: black; background: rgba(0,0,0,0.1);">
-                  
-                        <div>
-                            <div>
-                                <div>
-                                    <input type="button" value="Find Factorial For..." class="btn-search" id="factorial" onclick="test()"> <br><br>
-                                    <table style="width:100%">
-                                        <tr>
-                                          <th>Number</th>
-                                          <th>Factorial</th>
-                                        </tr>
-                                        <script src="Factorial.js"></script>
-                                        
-                                      </table>
-                                        
-                                        
-                                    </div>
-                                
-                            </div>
-                            
-                        </div>
+                </div>
+                <button class="accordion">Calculator JS</button>
+
+                <div class="accordion-content" style="color: black; background: rgba(0,0,0,0.1);">
+
+                    <div>
+                        <input type="text" style="margin-top: 5%;width: 40%;height: 50px;" readonly="true"
+                            id="screen"><br>
+                        <input type="button" id="one" class="Calculator" value="1" onclick="button('1')">
+                        <input type="button" id="two" class="Calculator" value="2" onclick="button('2')">
+                        <input type="button" id="three" class="Calculator" value="3" onclick="button('3')">
+                        <input type="button" id="plus" class="Calculator" value="+" onclick="calc('plus')">
+                        <br>
+                        <input type="button" id="four" class="Calculator" value="4" onclick="button('4')">
+                        <input type="button" id="five" class="Calculator" value="5" onclick="button('5')">
+                        <input type="button" id="six" class="Calculator" value="6" onclick="button('6')">
+                        <input type="button" id="minus" class="Calculator" value="-" onclick="calc('minus')">
+                        <br>
+                        <input type="button" id="seven" class="Calculator" value="7" onclick="button('7')">
+                        <input type="button" id="eight" class="Calculator" value="8" onclick="button('8')">
+                        <input type="button" id="nine" class="Calculator" value="9" onclick="button('9')">
+                        <input type="button" id="multiply" class="Calculator" value="X" onclick="calc('multiply')">
+                        <br>
+                        <input type="button" id="Clear" class="Calculator" value="C" onclick="clearScreen()">
+                        <input type="button" id="zero" class="Calculator" value="0" onclick="button('0')">
+                        <input type="button" id="equal" class="Calculator" value="=" onclick="equal()">
+                        <input type="button" id="divide" class="Calculator" value="/" onclick="calc('divide')">
+                        
+
                     </div>
-                    <button class="accordion" >Calculator JS</button>
-                  
-                    <div class="accordion-content" style="color: black; background: rgba(0,0,0,0.1);">
-                  
-                        <div>
-                            <input type="text" style="margin-top: 5%;width: 40%;height: 50px;" readonly="true" id="screen"><br>
-                            <input type="button" id="one" class="Calculator" value="1" onclick="button('1')">
-                            <input type="button" id="two" class="Calculator" value="2" onclick="button('2')">
-                            <input type="button" id="three" class="Calculator" value="3" onclick="button('3')">
-                            <input type="button" id="plus" class="Calculator" value="+" onclick="calc('plus')">
-                            <br>
-                            <input type="button" id="four" class="Calculator" value="4" onclick="button('4')">
-                            <input type="button" id="five" class="Calculator" value="5" onclick="button('5')">
-                            <input type="button" id="six" class="Calculator" value="6" onclick="button('6')">
-                            <input type="button" id="minus" class="Calculator" value="-" onclick="calc('minus')">
-                            <br>
-                            <input type="button" id="seven" class="Calculator" value="7" onclick="button('7')">
-                            <input type="button" id="eight" class="Calculator" value="8" onclick="button('8')">
-                            <input type="button" id="nine" class="Calculator" value="9" onclick="button('9')">
-                            <input type="button" id="multiply" class="Calculator" value="X" onclick="calc('multiply')">
-                            <br>
-                            <input type="button" id="Clear" class="Calculator" value="C"onclick="clearScreen()">
-                            <input type="button" id="zero" class="Calculator" value="0" onclick="button('0')">
-                            <input type="button" id="equal" class="Calculator" value="="onclick="equal()">
-                            <input type="button" id="divide" class="Calculator" value="/" onclick="calc('divide')">
-                                <script src="Calculator.js"></script>
-                                
-                            </div>
+                </div>
+                <button class="accordion">List JS</button>
+
+                <div class="accordion-content" style="color: black; background: rgba(0,0,0,0.1);">
+
+                    <div>
+                        <h2>Your favorite browser is</h2>
+                        <input type="text" id="selectText" />
+                        <h2>Select your favorite browser</h2>
+                        <select id="selectList" style="margin-bottom: 1%; width: 10%;" onchange="listRedirect()">
+                            <option id="selectDefault" disabled selected>Select Your Option</option>
+                            <option>Internet Explorer</option>
+                            <option>Microsoft Edge</option>
+                            <option>Google Chrome</option>
+                            <option>Opera</option>
+                            <option>Opera Mini</option>
+                        </select>
+                        <br>
+                        <input type="button" value="Add" class="btn-search" onclick="addToList()" />
+                        <input type="button" value="Remove" class="btn-search" onclick="removeFromList()" />
+
                     </div>
-                    
-                    
-                    
-                
-                    <p><a href="Drag.html"  class="btn-search">Drag JS</a></p><br>
-                <p><a href="List.html"  class="btn-search">List JS</a></p><br>
-           
+                </div>
+                <p><a href="Drag.html" class="btn-search">Drag JS</a></p><br>
+
             </article>
         </div>
 
     </section>
-
     <script src="Javascript.js"></script>
+    <script src="StringSplit.js"></script>
+    <script src="substring.js"></script>
+    <script src="Calculator.js"></script>
+    <script src="List.js"></script>
     </section>
     <footer>
         <div class="fixed-footer">
