@@ -46,3 +46,5 @@ Patch 1.0.1 Notes: <br>
 Minor Changes<br>
 -Adjusted Phone To Take 11 Number Instead Of 10<br>
 -Adjusted Buttons Shape And Buttons Hover <br>
+-Calculator Position Fixed/Font Increased To be More clearer<br>
+-Accordion Buttons Fonts Fixed.(They were smaller than normal buttons)<br>

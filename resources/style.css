@@ -281,6 +281,9 @@ nav a:hover {
     border: 3px solid #d35f76;
     box-shadow: 0 0 5px #FF0032, 0 0 25px #FF0032, 0 0 50px #FF0032, 0 0 100px #FF0032;
 }
+.accordion{
+    font-size: medium;
+}
 
 .index {
     width: 3%;
@@ -295,8 +298,10 @@ td {
 .Calculator {
     width: 5%;
     height: 60px;
-    margin: 25px 60px 25px 60px;
-    background: linear-gradient(rgb(170, 169, 169), rgb(0, 0, 0));
+    color:white;
+    font-size: x-large;
+    margin: 10px 30px 10px 30px;
+    background: linear-gradient(rgb(54, 54, 54), rgb(8, 2, 79));
 }
 
 .Calculator:hover {
