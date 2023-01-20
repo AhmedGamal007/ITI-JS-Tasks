@@ -5,7 +5,8 @@
     transition: background-color 0.2s linear;
   }
   .accordion-content {
-    width: 90%;
+    width: 60%;
+    color:wheat;
     margin: 1% auto;
     border-left: 1px solid whitesmoke;
     border-right: 1px solid whitesmoke;

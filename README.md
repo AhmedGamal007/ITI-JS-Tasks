@@ -48,3 +48,4 @@ Minor Changes<br>
 -Adjusted Buttons Shape And Buttons Hover <br>
 -Calculator Position Fixed/Font Increased To be More clearer<br>
 -Accordion Buttons Fonts Fixed.(They were smaller than normal buttons)<br>
+-GUI Adjustments <br>
