@@ -264,19 +264,21 @@ nav a:hover {
     background: linear-gradient(rgb(170, 169, 169), rgb(0, 0, 0));
     text-decoration: none;
     padding: 7px 70px;
-    border: 1px solid black;
+    border: 3px solid black;
     font-family: sans-serif;
+    border-radius: 10px;
     font-weight: 500;
     margin-top: 0%;
     margin-left: 0%;
     margin-right: 0;
+    
 }
 
 .btn-search:hover,
 .accordion:hover {
     background: #CD0404;
     color: #fff;
-    border-radius: 5px;
+    border: 3px solid #d35f76;
     box-shadow: 0 0 5px #FF0032, 0 0 25px #FF0032, 0 0 50px #FF0032, 0 0 100px #FF0032;
 }
 

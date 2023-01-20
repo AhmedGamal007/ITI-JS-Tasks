@@ -41,3 +41,8 @@ Patch 1.0 Notes: <br>
 -Deleted UnNecessary Files<br>
 -Minor GUI Adjustments<br>
 
+----------------------------------------------------------------- <br>
+Patch 1.0.1 Notes: <br>
+Minor Changes<br>
+-Adjusted Phone To Take 11 Number Instead Of 10<br>
+-Adjusted Buttons Shape And Buttons Hover <br>

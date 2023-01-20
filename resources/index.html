@@ -8,7 +8,6 @@
 </head>
 
 <body>
-
     <div class="login-box">
         <h2>Account Information</h2>
         <form onsubmit="output()" action="../Home.html">
@@ -45,7 +44,7 @@
                 <label id="label4">Name</label>
             </div>
             <div class="user-box">
-                <input type="date" name="formInput">
+                <input type="date" name="formInput" value="2000-01-01">
                 <label id="label5">Date of Birth</label>
             </div>
             <div class="user-box">
@@ -53,7 +52,7 @@
                 <label id="label6">Favorite Color</label>
             </div>
             <div class="user-box">
-                <input type="file" accept="image/png,image/jpg" name="formInput" style="width: 30%;">
+                <input type="file" accept="image/png,image/jpg" name="formInput">
                 <label id="label7">Profile Photo</label>
             </div>
             <div class="user-box">
@@ -75,8 +74,8 @@
                 <label id="label11">Email Address</label>
             </div>
             <div class="user-box">
-                <input type="tel" id="tel" name="formInput" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-                    placeholder="012-345-6789" onkeypress="telPattern()" ondblclick="activateTel()">
+                <input type="tel" id="tel" name="formInput" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}"
+                    placeholder="012-3456-6789" onkeypress="telPattern()">
                 <label id="label12">Phone Number</label>
             </div>
             <div class="user-box">
@@ -85,11 +84,20 @@
             </div>
 
 
-            <a style="margin:0; padding:0;"><span></span><span></span><span></span><span></span> <input type="submit"
-                    value="Submit" class="submit"> </a>
+            <a style="margin:0; padding:0;">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span> 
+                <input type="submit" value="Submit" class="submit"> 
+            </a>
             <a style="margin-left: 70px; padding:0;">
-                <span></span><span></span><span></span><span></span><input type="reset" value="RESET"
-                    class="submit"></a>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <input type="reset" value="RESET" class="submit">
+            </a>
         </form>
     </div>
     <footer>
