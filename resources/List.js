@@ -21,6 +21,7 @@ function removeFromList() {
     var text = document.getElementById("selectText").value;
     var listOption = document.getElementById("selectList");
     listOption.innerHTML += "<option>"+text+"</option>";
+    listOption.value = text;
   }
 function listRedirect(){
     var listOption = document.getElementById("selectList");
