@@ -55,3 +55,4 @@ Patch 1.1 Notes: <br>
 -Adjusted Header Position/Added Header Animation <br>
 -"Factorial JS" Table Enhanced with Bootstrap<br>
 -Fixed Styling After Adding Bootstrap<br>
+-Added required validation on some inputs in Sign UP tab with animation<br>
