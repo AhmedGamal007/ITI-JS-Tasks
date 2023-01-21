@@ -50,22 +50,22 @@ body {
 
 .login-box .user-box label {
     position: absolute;
-    top: 0;
+    top: -20px;
     left: 0;
     padding: 10px 0;
     font-size: 16px;
-    color: #fff;
+    color: #03e9f4;
     pointer-events: none;
     transition: .5s;
 }
 
-.login-box .user-box input:focus~label,
-.login-box .user-box input:valid~label {
-    top: -20px;
-    left: 0;
-    color: #03e9f4;
+
+/* .login-box .user-box input:invalid~label
+ {
+    font-weight: bolder;
     font-size: 12px;
-}
+  color: rgb(47, 40, 127);
+}   */
 
 .login-box form a {
     position: relative;
@@ -213,7 +213,7 @@ body {
 nav a {
     color: #fff;
     text-decoration: none;
-    padding: 0.25% 8%;
+    padding: 0.25% 7%;
     display: inline-block;
     
     margin-top: 0%;
@@ -274,8 +274,11 @@ nav a:hover {
     margin-left: 0%;
     margin-right: 0;
     border-radius: 30px;
+    transition: ease;
+    transition-duration: .5s;
     
 }
+
 
 .btn-search:hover,
 .accordion:hover {
@@ -283,6 +286,8 @@ nav a:hover {
     color: #fff;
     border: 3px solid #d35f76;
     box-shadow: 0 0 5px #FF0032, 0 0 25px #FF0032, 0 0 50px #FF0032, 0 0 100px #FF0032;
+    
+    
 }
 .accordion{
     font-size: medium;
@@ -295,7 +300,8 @@ nav a:hover {
 table,
 th,
 td {
-    border: 1px solid black;
+   
+    border: 1px solid white;
 }
 
 .Calculator {
@@ -339,5 +345,16 @@ input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
+.container a{
+    transition: ease;
+    transition-duration: 2s;
+}
+.container a:hover{
+    transform: scale(1.2);
+    
+    
+}
+.header {
+    margin-bottom: 2%;
+}
 
-/* Accordion */

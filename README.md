@@ -49,3 +49,9 @@ Minor Changes<br>
 -Calculator Position Fixed/Font Increased To be More clearer<br>
 -Accordion Buttons Fonts Fixed.(They were smaller than normal buttons)<br>
 -GUI Adjustments <br>
+----------------------------------------------------------------- <br>
+Patch 1.1 Notes: <br>
+-Added Bootstrap v5.2.3<br>
+-Adjusted Header Position/Added Header Animation <br>
+-"Factorial JS" Table Enhanced with Bootstrap<br>
+-Fixed Styling After Adding Bootstrap<br>

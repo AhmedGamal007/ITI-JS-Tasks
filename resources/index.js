@@ -15,5 +15,18 @@ function telPattern()
      }else if (tel.value.length >= 13) {
           tel.value = tel.value.substring(0,12); 
      } 
-     // console.log(tel.value.length)
+   
     }
+function reqInput(label) {     
+     
+     var reqString = " (Required)"
+     if (label.innerHTML.indexOf(reqString) != -1) {
+          return;
+     }
+     label.innerHTML+= reqString;
+     label.style.color = "rgb(255, 0, 0)";
+     label.style.font = "bolder";
+     label.style.transition = "4s";
+     
+
+ }
