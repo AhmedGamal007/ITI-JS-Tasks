@@ -374,10 +374,9 @@ input::-webkit-inner-spin-button {
     background: rgb(170, 169, 169);
 }
 .dropdown .dropdown-menu:hover{
-    color: #CD0404;
     
     
     
-    box-shadow: 0 0 5px #FF0032, 0 0 25px #FF0032, 0 0 50px #FF0032, 0 0 100px #FF0032;
+    box-shadow: 0 0 5px black, 0 0 25px black, 0 0 50px black, 0 0 100px black;
     
 }
