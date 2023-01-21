@@ -41,9 +41,9 @@
                     <div>
                         <h3>The Sentence is</h3>
                         <textarea id="stringBox" rows="5" cols="60" name="stringInput"></textarea><br>
-                        <p>Enter the letter(s) to search for<br></p>
+                        <p><b>Enter the letter(s) to search for</b><br></p>
                         <input type="text" name="subStringInput" id="subStringInput"><br>
-                        <p>At index<br><input type="text" id="indexInput" value="0" class="index"></p><br>
+                        <p><b>At index</b><br><input type="text" id="indexInput" value="0" class="index"></p><br>
                         <input type="button" name="search" value="Search" class="btn-search" id="search"
                             onclick="substring()"> <br>
                         <b>First occurence located at index <input type="text" id="firstIndexOutput" class="index"
@@ -66,10 +66,10 @@
                         <div>
                             <h3>Enter A Sentence To Split Into Words </h3>
                             <input type="text" id="stringSentence" name="" style="width: 20%;"><br>
-                            <p>Split By<br><input type="text" id="splitInput" class="index"></p><br>
+                            <p><b>Split By</b><br><input type="text" id="splitInput" class="index"></p><br>
                             <input type="button" name="search" value="Split" class="btn-search" id="split"
                                 onclick="stringSplit()"> <br><br>
-                            <b>The Sentence Split Into Words Is</b><br><textarea id="stringBox"
+                            <b>The Sentence Split Into Words Is</b><br><textarea id="stringBoxSplit" style="height: 200px;"
                                 readonly="true"></textarea><br>
                             <b>The First 10 Characters Of The Input String are<br><input type="text" id="firstOutput"
                                     readonly="true">
