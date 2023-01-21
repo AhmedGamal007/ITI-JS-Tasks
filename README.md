@@ -60,4 +60,5 @@ Patch 1.1 Notes: <br>
 ----------------------------------------------------------------- <br>
 Patch 1.1.1 Notes: <br>
 -Changed Header UI <br>
+-Bug Fixes <br>
 -Added drop down menu to Projects Tab <br>
