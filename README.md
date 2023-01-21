@@ -57,3 +57,7 @@ Patch 1.1 Notes: <br>
 -Fixed Styling After Adding Bootstrap<br>
 -Added required validation on some inputs in Sign UP tab with animation<br>
 -Bug Fixes > StringSplit Box is not Functionl <br>
+----------------------------------------------------------------- <br>
+Patch 1.1.1 Notes: <br>
+-Changed Header UI <br>
+-Added drop down menu to Projects Tab <br>
