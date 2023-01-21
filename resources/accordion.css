@@ -5,6 +5,7 @@
     transition: background-color 0.2s linear;
   }
   .accordion-content {
+    border-radius: 50px;
     width: 60%;
     color:wheat;
     margin: 1% auto;

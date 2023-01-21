@@ -213,17 +213,19 @@ body {
 nav a {
     color: #fff;
     text-decoration: none;
-    padding: 7px 140px;
+    padding: 0.25% 8%;
     display: inline-block;
+    
     margin-top: 0%;
     margin-left: 0%;
     margin-right: 0;
+    border-radius: 30px;
 }
 
 nav a:hover {
     background: #CD0404;
     color: #fff;
-    border-radius: 5px;
+    
     box-shadow: 0 0 5px #FF0032, 0 0 25px #FF0032, 0 0 50px #FF0032, 0 0 100px #FF0032;
 }
 
@@ -271,6 +273,7 @@ nav a:hover {
     margin-top: 0%;
     margin-left: 0%;
     margin-right: 0;
+    border-radius: 30px;
     
 }
 
