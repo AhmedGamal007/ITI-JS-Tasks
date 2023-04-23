@@ -12,7 +12,7 @@ function telPattern()
      var tel = document.getElementById("tel");
      if (tel.value.length==8 || tel.value.length==3) {
           tel.value+="-";
-     }else if (tel.value.length >= 13) {
+     }else if (tel.value.length > 12) {
           tel.value = tel.value.substring(0,12); 
      } 
    
