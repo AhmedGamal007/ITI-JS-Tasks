@@ -1,0 +1,22 @@
+.button.accordion {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: background-color 0.2s linear;
+  }
+  .accordion-content {
+    border-radius: 50px;
+    width: 60%;
+    color: darkgray;
+    margin: 1% auto;
+    border-left: 1px solid whitesmoke;
+    border-right: 1px solid whitesmoke;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s ease-in-out;
+  }
+  .accordion-content .btn-search{
+    padding: 0% 2%;
+    
+  }

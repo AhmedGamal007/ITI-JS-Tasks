@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="accordion.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    
+    <title>JavaScript</title>
+</head>
+
+<body>
+    <header class="fixed-header">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <h2 class="text-danger">Gemy</h2>
+
+            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none" style="margin-left: 18%;">
+              <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+            </a>
+            
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="../Home.html" class="nav-link px-4 text-white bg-gradient" style="margin-right:50px;">Home</a></li>
+              <li class="nav-item dropdown"><a href="Projects.html" class="nav-link px-4 text-dark bg-gradient dropdown-toggle" id="navbarDropdown"
+                role="button"
+                aria-expanded="false" style="margin-right:50px;">Projects</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="https://www.google.com">Google</a></li>
+                <li><a class="dropdown-item" href="https://www.valeo.com/en/">Valeo</a></li>
+                <li><a class="dropdown-item" href="https://web.vodafone.com.eg/">Vodafone Egypt</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li>
+                  <a class="dropdown-item" href="Javascript.html">JavaScript Projects</a>
+                </li>
+              </ul>
+            </li>
+              <li><a href="ContactUs.html" class="nav-link px-4 text-white bg-gradient" style="margin-right:50px;">Contact Us</a></li>
+              <li><a href="About.html" class="nav-link px-4 text-white bg-gradient" style="margin-right:50px;">About</a></li>
+            </ul>
+    
+            
+            <div class="text-end">
+              <button type="button" class="btn btn-outline-light me-2">Login</button>
+              <a href="index.html">
+              <button type="button" class="btn btn-outline-light me--5">Sign-up</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </header>
+
+    <section class="Projects" style="margin-top: 2%;">
+        <h2 class="header">JavaScript Projects</h2>
+        <div>
+
+            <article>
+
+
+                <button class="accordion">SubString JS</button>
+
+                <div class="accordion-content" style="background: rgba(0,0,0,0.1);">
+
+                    <div>
+                        <h3>The Sentence is</h3>
+                        <textarea id="stringBox" rows="5" cols="60" name="stringInput"></textarea><br>
+                        <p><b>Enter the letter(s) to search for</b><br></p>
+                        <input type="text" name="subStringInput" id="subStringInput"><br>
+                        <p><b>At index</b><br><input type="text" id="indexInput" value="0" class="index"></p><br>
+                        <input type="button" name="search" value="Search" class="btn-search" id="search"
+                            onclick="substring()"> <br>
+                        <b>First occurence located at index <input type="text" id="firstIndexOutput" class="index"
+                                readonly="true"><br></b>
+                        <b>Last occurence located at index <input type="text" id="lastIndexOutput" class="index"
+                                readonly="true"><br></b>
+                        <b>First occurence from your index located at index <input type="text"
+                                id="firstIndexInputOutput" class="index" readonly="true"><br></b>
+                        <b>Last occurence from your index located at index <input type="text" id="lastIndexInputOutput"
+                                class="index" readonly="true"><br></b>
+                       
+
+                    </div>
+                </div>
+                <button class="accordion">StringSplit JS</button>
+
+                <div class="accordion-content" style="background: rgba(0,0,0,0.1);">
+
+                    <div>
+                        <div>
+                            <h3>Enter A Sentence To Split Into Words </h3>
+                            <input type="text" id="stringSentence" name="" style="width: 20%;"><br>
+                            <p><b>Split By</b><br><input type="text" id="splitInput" class="index"></p><br>
+                            <input type="button" name="search" value="Split" class="btn-search" id="split"
+                                onclick="stringSplit()"> <br><br>
+                            <b>The Sentence Split Into Words Is</b><br><textarea id="stringBoxSplit" style="height: 200px;"
+                                readonly="true"></textarea><br>
+                            <b>The First 10 Characters Of The Input String are<br><input type="text" id="firstOutput"
+                                    readonly="true">
+                                
+
+                        </div>
+
+                    </div>
+                </div>
+                <button class="accordion">Factorial JS</button>
+
+                <div class="accordion-content" style="background: rgba(0,0,0,0.1);">
+
+                    <div>
+                        <div>
+                            <div>
+                                <br>
+                                <input type="button" value="Find Factorial For..." class="btn-search" id="factorial"
+                                    onclick="test()"> <br><br>
+                                <table style="width:100%;" class="table table-dark table-striped table-sm table-hover table-bordered">
+                                    <tr class="table table-active">
+                                        <th>Number</th>
+                                        <th>Factorial</th>
+                                    </tr>
+                                    <script src="Factorial.js"></script>
+
+                                </table>
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <button class="accordion">Calculator JS</button>
+
+                <div class="accordion-content">
+
+                    <div>
+                        <input type="text" style="margin-top: 1%; width: 31%;height: 50px; font-size: x-large; text-align: center;" readonly="true"
+                            id="screen"><br>
+                        <input type="button" id="one" class="Calculator" value="1" onclick="button('1')">
+                        <input type="button" id="two" class="Calculator" value="2" onclick="button('2')">
+                        <input type="button" id="three" class="Calculator" value="3" onclick="button('3')">
+                        <input type="button" id="plus" class="Calculator" value="+" onclick="calc('plus')">
+                        <br>
+                        <input type="button" id="four" class="Calculator" value="4" onclick="button('4')">
+                        <input type="button" id="five" class="Calculator" value="5" onclick="button('5')">
+                        <input type="button" id="six" class="Calculator" value="6" onclick="button('6')">
+                        <input type="button" id="minus" class="Calculator" value="-" style="font-size: xx-large;" onclick="calc('minus')">
+                        <br>
+                        <input type="button" id="seven" class="Calculator" value="7" onclick="button('7')">
+                        <input type="button" id="eight" class="Calculator" value="8" onclick="button('8')">
+                        <input type="button" id="nine" class="Calculator" value="9" onclick="button('9')">
+                        <input type="button" id="multiply" class="Calculator" value="X" style="font-size: medium;" onclick="calc('multiply')">
+                        <br>
+                        <input type="button" id="Clear" class="Calculator" value="C" onclick="clearScreen()">
+                        <input type="button" id="zero" class="Calculator" value="0" onclick="button('0')">
+                        <input type="button" id="equal" class="Calculator" value="=" onclick="equal()">
+                        <input type="button" id="divide" class="Calculator" value="/" onclick="calc('divide')">
+                        
+
+                    </div>
+                </div>
+                <button class="accordion">List JS</button>
+
+                <div class="accordion-content" style="background: rgba(0,0,0,0.1);">
+
+                    <div>
+                        <h2>Your favorite browser is</h2>
+                        <input type="text" id="selectText" />
+                        <h2>Select your favorite browser</h2>
+                        <select id="selectList" style="margin-bottom: 1%; width: 20%;" onchange="listRedirect()">
+                            <option id="selectDefault" disabled selected>Select Your Option</option>
+                            <option>Internet Explorer</option>
+                            <option>Microsoft Edge</option>
+                            <option>Google Chrome</option>
+                            <option>Opera</option>
+                            <option>Opera Mini</option>
+                        </select>
+                        <br>
+                        <input type="button" value="Add" class="btn-search" onclick="addToList()" />
+                        <input type="button" value="Remove" class="btn-search" onclick="removeFromList()" />
+
+                    </div>
+                </div>
+                <p><a href="Drag.html" class="btn-search">Drag JS</a></p><br>
+
+            </article>
+        </div>
+
+    </section>
+    <script src="Javascript.js"></script>
+    <script src="StringSplit.js"></script>
+    <script src="substring.js"></script>
+    <script src="Calculator.js"></script>
+    <script src="List.js"></script>
+    </section>
+    <footer>
+        <div class="fixed-footer">
+            <div class="container">Copyright &copy; 2023 Gemy Inc.</div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+    </footer>
+</body>
+
+</html>
